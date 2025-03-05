@@ -1,11 +1,18 @@
-let text = document.getElemenyById("text")
-let button1 = document.getElementById("button1")
-let clickcount= 0;
-button1.addEventListener ("click", yell);
-function yell() {
-clickcount++;
-if( clickcount == 1){
-    text.innerHTML = "PLEASE STOP TOUCHING ME, IM WARNING YOU PAL";
-}
+let message = document.getElementById("message");
+let button1 = document.getElementById("button1");
+let body = document.getElementById("body");
+let button = document.getElementById("body")
 
+let clicks=0
+
+button1.addEventListener("click" , annoy);
+
+function annoy (){
+    clicks++;
+    if(clicks == 3) {
+        message.innerHTML = "STOP TOUCHING ME IM WARNING YOU PAL";
+    }
+    else if(clicks == 6){
+        message.innerHTML = "WHAT DID I JUST SAY!!"
+    }
 }

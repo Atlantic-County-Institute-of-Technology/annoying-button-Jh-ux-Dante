@@ -10,7 +10,7 @@ body{
     background-color: red;
     font-size: 45px;
     position:absolute;
-    left: 742px;
+    left: 750px;
     top: 250px;
     border: none;
     box-shadow: 0 10px black;
@@ -21,6 +21,6 @@ body{
     color: white;
 }
 
-#text{
+#message{
     text-align: center;
 }
